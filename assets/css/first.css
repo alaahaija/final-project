@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Mada:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topic-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 30px 14px 20px;
+    gap: 10px;
+    font-weight: 600;
+    position: relative;
+    width: calc(100% - 1069px);
+    margin: auto;
+    border-radius: 11px;
+    border: 1px solid  #F1F1F3;
+    background:  #FCFCFD;
+}
+.topic-item .shape{
+    border-radius: 6px;
+    background: #FFF4E5;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.sparkle{
+    color: #FF9500;
+}
+.center{
+    text-align: center;
+}
+.first{
+    padding: 30px 0px;
+}
+.abs{
+    position: absolute;
+    left: -24px;
+    top: -30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.unlock{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.expo{
+    border-radius: 8px;
+    background:  #FF9500;
+    color: white;
+    padding: 18px 24px;
+}
+.view{
+    border-radius: 8px;
+    border: 1px solid  #F1F1F3;
+    padding: 18px 24px;
+    color: #262626;
+    background-color: white;
+}

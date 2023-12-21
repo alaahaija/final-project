@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Mada:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: calc(100% - 264px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.row .Benefit{
+    flex: 1;
+}
+.Benefits{
+    padding: 30px 0px;
+}
+.parent3{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.para{
+    text-align: start;
+    font-size: 14px;
+}
+.parent3 .all{
+    border-radius: 8px;
+    border: 1px solid  #F1F1F3;
+    background:  #FCFCFD;
+    padding: 18px 24px;
+    color: #262626;
+}
+.Benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+}
+.Benefit .para1{
+    text-align: end;
+    color: #262626;
+    font-size: 30px;
+    font-weight: 600;
+}
+.para2{
+    text-align: start;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 600;
+}
+.para3{
+    text-align: start;
+}
+.Benefit a{
+    align-self: flex-end;
+}
+.Benefit svg{
+    align-self: flex-end;
+    border-radius: 8px;
+    border: 1px solid  #F1F1F3;
+    background:  #FCFCFD;
+    padding: 10px;
+    box-sizing: content-box;
+}
+

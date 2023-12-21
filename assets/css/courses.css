@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Mada:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: calc(100% - 264px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Courses{
+    padding: 30px 0px;
+}
+.Courses a{
+    border-radius: 8px;
+    border: 1px solid  #F1F1F3;
+    background:#FCFCFD;
+    padding: 18px 24px;
+    color: #262626;
+}
