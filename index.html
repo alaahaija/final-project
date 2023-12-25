@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skillbridge</title>
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/first.css">
     <link rel="stylesheet" href="assets/css/cards.css">
-    <link rel="stylesheet" href="assets/css/image.css">
+    <link rel="stylesheet" href="assets/css/image-sec.css">
     <link rel="stylesheet" href="assets/css/benefits.css">
     <link rel="stylesheet" href="assets/css/courses.css">
+    <link rel="stylesheet" href="assets/css/testimonials.css">
+    <link rel="stylesheet" href="assets/css/pricing.css">
     <link rel="icon" href="assets/img/Logo.svg " alt="test">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="row">
-                <div class="r-side">
+                <div class="l-side">
                     <div class="row">
                         <div class="logo">
                             <img src="assets/img/Logo.svg" alt="test"/>
@@ -33,13 +36,14 @@
                         </nav> 
                     </div>   
                 </div>
-                <div class="l-side">
+                <div class="r-side">
                     <a href="#" class="sign">Sign Up</a>
                     <a href="#" class="log">Login</a>
                 </div>
             </div>
         </div>
     </header>
+    <!--
     <main>
         <section class="first">
                 <div class="unlock">
@@ -192,11 +196,11 @@
                 </div>
             </div>
         </section>
-        <section class="image">
+        <section class="people">
             <div class="container">
                 <div class="parent2">
                 
-                        <img src="assets/img/p1.png"/>
+                        <img src="assets/img/p1.png" alt="test"/>
                     
                     
                         <a href="#">
@@ -220,8 +224,7 @@
                             <a href="#" class="all">View All</a>
                         </div>
                     </div>
-                    
-                        <div class="row">
+                    <div class="row">
                             <div class="Benefit">
                                 <p class="para1">01</p>
                                 <p class="para2">Flexible Learning Schedule</p>
@@ -304,35 +307,282 @@
                     <div class="p-cou">
                         <div class="row">
                             <div class="Course">
-                                <img src="assets/img/1.png"/>
+                                <img src="assets/img/1.png" alt="test"/>
                                 <div class="row">
                                     <div>
-                                        <span>1</span>
-                                        <span>2</span>
+                                        <span class="bord">4 Weeks</span>
+                                        <span class="bord">Beginner</span>
                                     </div>
                                     <div>
-                                        <span>3</span>
+                                        <span>By John Smith</span>
                                     </div>
                                 </div>
-                                <p></p>
-                                <p></p>
-                                <a href="#"></a>
+                                <p class="bold">Web Design Fundamentals</p>
+                                <p class="size">Learn the fundamentals of web design, including HTML, CSS, and responsive<br/> design principles. Develop the skills to create visually appealing and user-<br/>friendly websites.</p>
+                                <a href="#">Get it Now</a>
                             </div>
                             <div class="Course">
-                                <img src="assets/img/2.png"/>
+                                <img src="assets/img/2.png" alt="test"/>
                                 <div class="row">
                                     <div>
-                                        <span>1</span>
-                                        <span>2</span>
+                                        <span class="bord">6 Weeks</span>
+                                        <span class="bord">Intermediate</span>
                                     </div>
                                     <div>
-                                        <span>3</span>
+                                        <span>By Emily Johnson</span>
                                     </div>
+                                </div>
+                                <p class="bold">UI/UX Design</p>
+                                <p class="size">Master the art of creating intuitive user interfaces (UI) and enhancing user <br/>experiences (UX). Learn design principles, wireframing, prototyping, and<br/>usability testing techniques.</p>
+                                <a href="#">Get it Now</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="Course">
+                                <img src="assets/img/3.png" alt="test"/>
+                                <div class="row">
+                                    <div>
+                                        <span class="bord">8 Weeks</span>
+                                        <span class="bord">Intermediate</span>
+                                    </div>
+                                    <div>
+                                        <span>By David Brown</span>
+                                    </div>
+                                </div>
+                                <p class="bold">Mobile App Development</p>
+                                <p class="size">Dive into the world of mobile app development. Learn to build native iOS and<br/> Android applications using industry-leading frameworks like Swift and Kotlin.</p>
+                                <a href="#">Get it Now</a>
+                            </div>
+                            <div class="Course">
+                                <img src="assets/img/4.png" alt="test"/>
+                                <div class="row">
+                                    <div>
+                                        <span class="bord">10 Weeks</span>
+                                        <span class="bord">Beginner</span>
+                                    </div>
+                                    <div>
+                                        <span>By Sarah Thompson</span>
+                                    </div>
+                                </div>
+                                <p class="bold">Graphic Design for Beginners</p>
+                                <p class="size">Discover the fundamentals of graphic design, including typography, color<br/> theory, layout design, and image manipulation techniques. Create visually<br/>stunning designs for print and digital media.</p>
+                                <a href="#">Get it Now</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="Course">
+                                <img src="assets/img/5.png" alt="test"/>
+                                <div class="row">
+                                    <div>
+                                        <span class="bord">10 Weeks</span>
+                                        <span class="bord">Intermediate</span>
+                                    </div>
+                                    <div>
+                                        <span>By Michael Adams</span>
+                                    </div>
+                                </div>
+                                <p class="bold">Front-End Web Development</p>
+                                <p class="size">Become proficient in front-end web development. Learn HTML, CSS,<br/> JavaScript, and popular frameworks like Bootstrap and React. Build<br/> interactive and responsive websites.</p>
+                                <a href="#">Get it Now</a>
+                            </div>
+                            <div class="Course">
+                                <img src="assets/img/6.png" alt="test"/>
+                                <div class="row">
+                                    <div>
+                                        <span class="bord">6 Weeks</span>
+                                        <span class="bord">Advance</span>
+                                    </div>
+                                    <div>
+                                        <span>By Jennifer Wilson</span>
+                                    </div>
+                                </div>
+                                <p class="bold">Advanced JavaScript</p>
+                                <p class="size">Take your JavaScript skills to the next level. Explore advanced concepts like<br/> closures, prototypes, asynchronous programming, and ES6 features. Build<br/> complex applications with confidence.</p>
+                                <a href="#">Get it Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Testimonials">
+            <div class="container">
+                <div class="parent5">
+                    <div class="row">
+                        <div class="left">
+                            <h2>Our Testimonials</h2>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum<br/> eget habitasse in velit fringilla feugiat senectus in.</p>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="all">View All</a>
+                        </div>
+                    </div>
+                    <div class="p-test">
+                        <div class="row">
+                            <div class="Testimonial">
+                                <p>The web design course provided a solid foundation for me. The instructors<br/> were knowledgeable and supportive, and the interactive learning environment<br/> was engaging. I highly recommend it!</p>
+                                <div class="row edge">
+                                    <div class="user">
+                                        <img src="assets/img/11.png" alt="test"/>
+                                        <span>Sarah L</span>
+                                    </div>
+                                    <a href="#">Read Full Story</a>
+                                </div>
+                            </div>
+                            <div class="Testimonial">
+                                <p>The UI/UX design course exceeded my expectations. The instructor's<br/> expertise and practical assignments helped me improve my design skills. I feel<br/> more confident in my career now. Thank you!</p>
+                                <div class="row edge">
+                                    <div class="user">
+                                        <img src="assets/img/22.png" alt="test"/>
+                                        <span>Jason M</span>
+                                    </div>
+                                    <a href="#">Read Full Story</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="row"></div>
-                        <div class="row"></div>
+                        <div class="row">
+                            <div class="Testimonial">
+                                <p>The mobile app development course was fantastic! The step-by-step<br/> tutorials and hands-on projects helped me grasp the concepts easily. I'm now<br/> building my own app. Great course!</p>
+                                <div class="row edge">
+                                    <div class="user">
+                                        <img src="assets/img/33.png" alt="test"/>
+                                        <span>Emily R</span>
+                                    </div>
+                                    <a href="#">Read Full Story</a>
+                                </div>
+                            </div>
+                            <div class="Testimonial">
+                                <p>I enrolled in the graphic design course as a beginner, and it was the perfect<br/> starting point. The instructor's guidance and feedback improved my design<br/> abilities significantly. I'm grateful for this course!</p>
+                                <div class="row edge">
+                                    <div class="user">
+                                        <img src="assets/img/44.png" alt="test"/>
+                                        <span>Michael K</span>
+                                    </div>
+                                    <a href="#">Read Full Story</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Pricing">
+            <div class="container">
+                <div class="parent6">
+                    <div class="row">
+                        <div class="left">
+                            <h2>Our Pricing</h2>
+                            <p class="para">Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum<br/> eget habitasse in velit fringilla feugiat senectus in.</p>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="month">Monthly</a>
+                            <a href="#" class="year">Yearly</a>
+                        </div>
+                    </div>
+                    <div class="p-price">
+                        <div class="row">
+                            <div class="price">
+                                <p class="top">Free Plan</p>
+                                <p class="sec-p">$0<span class="font">/month</span></p>
+                                <div class="Features">
+                                    <p class="font2">Available Features</p>
+                                    <div class="Feature">
+                                        <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                        </svg>
+                                        <span>Access to selected free courses.</span>
+                                    </div>                                   
+                                    <div class="Feature">
+                                        <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                        </svg>
+                                        <span>Limited course materials and resources.</span>
+                                    </div>
+                                    <div class="Feature">
+                                        <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                        </svg>
+                                        <span>Basic community support.</span>
+                                    </div>
+                                    <div class="Feature">
+                                        <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                        </svg>
+                                        <span>No certification upon completion.</span>
+                                    </div>
+                                    <div class="Feature">
+                                        <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                        </svg>
+                                        <span>Ad-supported platform.</span>
+                                    </div>
+                                    <div class="Feature">
+                                        <svg class="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M6.28033 5.21967C5.98744 4.92678 5.51256 4.92678 5.21967 5.21967C4.92678 5.51256 4.92678 5.98744 5.21967 6.28033L8.93934 10L5.21967 13.7197C4.92678 14.0126 4.92678 14.4874 5.21967 14.7803C5.51256 15.0732 5.98744 15.0732 6.28033 14.7803L10 11.0607L13.7197 14.7803C14.0126 15.0732 14.4874 15.0732 14.7803 14.7803C15.0732 14.4874 15.0732 14.0126 14.7803 13.7197L11.0607 10L14.7803 6.28033C15.0732 5.98744 15.0732 5.51256 14.7803 5.21967C14.4874 4.92678 14.0126 4.92678 13.7197 5.21967L10 8.93934L6.28033 5.21967Z" fill="#262626"/>
+                                        </svg>
+                                        <span>Access to exclusive Pro Plan community forums.</span>
+                                    </div>
+                                    <div class="Feature">
+                                        <svg class="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M6.28033 5.21967C5.98744 4.92678 5.51256 4.92678 5.21967 5.21967C4.92678 5.51256 4.92678 5.98744 5.21967 6.28033L8.93934 10L5.21967 13.7197C4.92678 14.0126 4.92678 14.4874 5.21967 14.7803C5.51256 15.0732 5.98744 15.0732 6.28033 14.7803L10 11.0607L13.7197 14.7803C14.0126 15.0732 14.4874 15.0732 14.7803 14.7803C15.0732 14.4874 15.0732 14.0126 14.7803 13.7197L11.0607 10L14.7803 6.28033C15.0732 5.98744 15.0732 5.51256 14.7803 5.21967C14.4874 4.92678 14.0126 4.92678 13.7197 5.21967L10 8.93934L6.28033 5.21967Z" fill="#262626"/>
+                                        </svg>
+                                        <span>Early access to new courses and updates.</span>
+                                    </div>
+                                </div>
+                                <a href="#">Get Started</a>
+                                </div>
+                                <div class="price">
+                                    <p class="top">Pro Plan</p>
+                                    <p class="sec-p">$79<span class="font">/month</span></p>
+                                    <div class="Features">
+                                        <p class="font2">Available Features</p>
+                                        <div class="Feature">
+                                            <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                            </svg>
+                                            <span>Unlimited access to all courses.</span>
+                                        </div>                                   
+                                        <div class="Feature">
+                                            <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                            </svg>
+                                            <span>Unlimited course materials and resources.</span>
+                                        </div>
+                                        <div class="Feature">
+                                            <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                            </svg>
+                                            <span>Priority support from instructors.</span>
+                                        </div>
+                                        <div class="Feature">
+                                            <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                            </svg>
+                                            <span>Course completion certificates.</span>
+                                        </div>
+                                        <div class="Feature">
+                                            <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                            </svg>
+                                            <span>Ad-free experience.</span>
+                                        </div>
+                                        <div class="Feature">
+                                            <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                            </svg>
+                                            <span>Access to exclusive Pro Plan community forums.</span>
+                                        </div>
+                                        <div class="Feature">
+                                            <svg class="tick" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7045 4.15347C17.034 4.4045 17.0976 4.87509 16.8466 5.20457L8.84657 15.7046C8.71541 15.8767 8.51627 15.9838 8.30033 15.9984C8.08439 16.0129 7.87271 15.9334 7.71967 15.7804L3.21967 11.2804C2.92678 10.9875 2.92678 10.5126 3.21967 10.2197C3.51256 9.92682 3.98744 9.92682 4.28033 10.2197L8.17351 14.1129L15.6534 4.29551C15.9045 3.96603 16.3751 3.90243 16.7045 4.15347Z" fill="#262626"/>
+                                            </svg>
+                                            <span>Early access to new courses and updates.</span>
+                                        </div>
+                                    </div>
+                                    <a href="#">Get Started</a>
+                                    </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -426,6 +676,7 @@
             </div>
             <p>© 2023 Skillbridge. All rights reserved.</p>
         </div>
-    </footer>
+    </footer> 
+    -->
 </body>
 </html>

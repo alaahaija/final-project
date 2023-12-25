@@ -1,22 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Mada:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    width: calc(100% - 264px);
-    margin: auto;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 .Courses{
     padding: 30px 0px;
+}
+.Courses .row{
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 60px;
 }
 .Courses a{
     border-radius: 8px;
@@ -24,4 +12,54 @@
     background:#FCFCFD;
     padding: 18px 24px;
     color: #262626;
+    text-align: center;
+}
+.parent4{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.p-cou{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Course{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid  #F1F1F3;
+    background: #FFF;
+    padding: 30px;
+}
+.Courses img{
+    margin: auto;
+    border-radius: 8px;
+    background:  lightgray 50% / cover no-repeat;
+    width: 100%;
+}
+.Courses span{
+    font-size: 14px;
+}
+.Course .bord{
+    border-radius: 8px;
+    border: 1px solid  #F1F1F3;
+    background:  #FFF;
+    padding: 5px 8px;
+    font-size: 11px;
+}
+.Course .bold{
+    font-weight: 600;
+}
+.Course p{
+    text-align: start;
+    color: #262626;
+}
+.Course .size{
+    font-size: 13px;
+}
+.Course a{
+    background: #F7F7F8;
 }
