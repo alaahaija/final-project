@@ -1,18 +1,17 @@
 .people{
     padding: 30px 0px;
 }
-.people img{
-    width: 1205px;
-    height: 750px;
-    border-radius: 12px;
-    filter: brightness(80%);
-    
-}
 .parent2{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.people img{
+    width: 100%;
+    border-radius: 12px;
+    filter: brightness(80%);
+    
 }
 .people a{
     display: flex;
@@ -20,6 +19,15 @@
     position: absolute;
     border-radius: 50px;
     border: 16px solid  #c6c6c6;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: (0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     opacity: 0.5;
+}
+@media screen and (max-width:700px) {
+    .s{
+        width: 22px;
+        height: 22px;
+    }
+    .people a{
+        border: 8px solid #c6c6c6;
+    }
 }

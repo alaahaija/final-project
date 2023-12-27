@@ -1,22 +1,37 @@
+.first{
+    padding: 40px 0px;
+}
+.unlock{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .topic-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 14px 30px 14px 20px;
     gap: 10px;
     font-weight: 600;
     position: relative;
-    width: calc(100% - 1069px);
     margin: auto;
     border-radius: 11px;
     border: 1px solid  #F1F1F3;
     background:  #FCFCFD;
+    font-size: 13px;
+    width: calc(100% - 1066px);
 }
-.topic-item .shape{
+.topic-item .strike{
     border-radius: 6px;
-    background: #FFF4E5;
-    padding: 10px;
+    background: #FFF4E5;justify-content: space-between;
+    width: 15px;
+    padding: 5px;
     box-sizing: content-box;
+}
+.abs{
+    position: absolute;
+    left: -24px;
+    top: -30px;
+    width: 30px;
 }
 .sparkle{
     color: #FF9500;
@@ -24,22 +39,9 @@
 .center{
     text-align: center;
 }
-.first{
-    padding: 40px 0px;
-}
-.abs{
-    position: absolute;
-    left: -24px;
-    top: -30px;
-}
 .buttons{
     display: flex;
     justify-content: center;
-    gap: 10px;
-}
-.unlock{
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 .expo{
@@ -54,4 +56,47 @@
     padding: 18px 24px;
     color: #262626;
     background-color: white;
+}
+@media screen  and (max-width:1400px) {
+    .topic-item{
+        width:calc(100% - 1070px);
+        font-size: 10px;
+    }
+    .abs{
+        width: 35px;
+    }
+    .center{
+        font-size: 13px;
+    }
+    .p-size{
+        font-size: 9px;
+    }
+    .expo,
+    .view{
+        width: 100px;
+        padding: 13px 10px;
+        font-size: 9px;
+        font-weight: 600;
+        text-align: center;
+    }
+} 
+@media screen and (max-width:1200px) {
+    .topic-item{
+        width: calc(100% - 870px);
+    }
+}
+@media screen and (max-width:1066px) {
+    .topic-item{
+        width: max-content
+    }
+}
+@media screen and (max-width:576px) {
+    .expo,
+    .view{
+        width: 100px;
+        padding: 13px 10px;
+        font-size: 9px;
+        font-weight: 600;
+        text-align: center;
+    }
 }

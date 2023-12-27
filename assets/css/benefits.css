@@ -5,6 +5,7 @@
     display: flex;
     gap: 30px;
     flex-direction: column;
+    
 }
 .parent3 .row{
     align-items: stretch;
@@ -12,7 +13,7 @@
 }
 .para{
     text-align: start;
-    font-size: 13px;
+    font-size: 10px;
 }
 .parent3 .all{
     border-radius: 8px;
@@ -28,7 +29,7 @@
     background-color: white;
     border-radius: 12px;
     padding: 10px 10px 10px 10px;
-    flex: 1;
+    flex: 1 1 300px;
 }
 .Benefit .para1{
     text-align: end;

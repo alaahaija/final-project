@@ -6,13 +6,16 @@
     flex-direction: column;
     gap: 20px;
 }
+.parent6 .row{
+    gap: 30px;
+}
+.left p{
+    font-size: 13px;
+}
 .Pricing .right{
     background-color: #FFF;
     border-radius: 8px;
     padding: 20px;
-}
-.left p{
-    font-size: 13px;
 }
 .right .month{
     border-radius: 6px;
@@ -30,7 +33,8 @@
     padding: 50px 30px 30px 30px;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    flex: 1 1 500px;
+
 }
 .top{
     border-radius: 6px;

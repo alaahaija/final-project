@@ -1,4 +1,4 @@
-.parent5{
+.Testimonials{
     padding: 30px 0px;
 }
 .parent5{
@@ -7,23 +7,15 @@
     gap: 15px;
 }
 .parent5 .row{
-    flex-wrap: nowrap;
-    align-self: stretch;
-    gap: 20px;
+    gap: 40px;
 }
 .parent5 a{
     border-radius: 8px;
     border: 1px solid  #F1F1F3;
     background:#FCFCFD;
-    padding: 18px 24px;
+    padding: 9px 14px;
     color: #262626;
     text-align: center;
-}
-.p-test{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    flex-wrap: nowrap;
 }
 .Testimonial{
     display: flex;
@@ -32,7 +24,7 @@
     background-color: #FFF;
     padding: 20px;
     border-radius:8px ;
-    flex: 1;
+    flex: 1 1 500px;
 }
 .Testimonial p{
     text-align: start;
@@ -54,6 +46,6 @@
 .Testimonial span{
     color: #333;
 }
-.Testimonial a{
-    background: #F7F7F8;
+.parent5 .s-a{
+    background-color: #F7F7F8;
 }
