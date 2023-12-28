@@ -50,10 +50,15 @@ nav ul a{
         display: none;
     }
 }
-@media screen and (max-width:1001px) {
-    .r-side{
-        flex-direction: column;
-        gap: 4px;
+@media screen and (max-width:1041px) {
+    header{
+        padding: 5px;
+    }
+    .hide{
+        display: none;
+    }
+    .burger{
+        display: block;
     }
 }
 @media screen and (max-width:875px){

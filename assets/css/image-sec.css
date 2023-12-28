@@ -22,6 +22,11 @@
     background: (0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     opacity: 0.5;
 }
+@media screen and (max-width:850px) {
+    .parent2{
+        padding: 5px;
+    }
+}
 @media screen and (max-width:700px) {
     .s{
         width: 22px;
