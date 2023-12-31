@@ -57,4 +57,9 @@
     padding: 10px;
     box-sizing: content-box;
 }
+@media screen and (max-width:1400px) {
+    .Benefits{
+        padding: 5px;
+    }
+}
 

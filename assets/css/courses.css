@@ -4,7 +4,7 @@
 .parent4{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 .Courses .row{
     align-items: stretch;
@@ -56,4 +56,9 @@
 }
 .Course a{
     background: #F7F7F8;
+}
+@media screen and (max-width:1400px) {
+    .Courses{
+        padding: 5px;
+    }
 }
