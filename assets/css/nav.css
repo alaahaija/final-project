@@ -71,9 +71,6 @@ nav ul a{
     .log, .sign{
         padding: 7px 17px;
     }
-    .r-side{
-        flex-direction: row;
-    }
     .burger{
         display: block;
     }
